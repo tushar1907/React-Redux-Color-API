@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import Box from '../components/box.js'
+
 
 class BoxContainer extends Component {
   render() {
     return (
-      <div className="App">
-        Tushar
-      </div>
+      <Box></Box>
     );
   }
 }
